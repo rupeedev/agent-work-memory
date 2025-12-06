@@ -1,8 +1,8 @@
 {
-  "name": "work-memory",
+  "name": "agent-work-memory",
   "version": "1.0.0",
-  "description": "Simple CLI tool for tracking daily work context, conversations, and decisions",
-  "main": "index.js",
+  "description": "SQLite-based CLI tool for tracking work sessions, changelog entries, features, decisions, and issues across multiple projects. Integrates with Claude CLI for automated session capture.",
+  "main": "db.js",
   "type": "commonjs",
   "bin": {
     "workmem": "./cli.js",
@@ -13,18 +13,34 @@
     "install-global": "npm link"
   },
   "keywords": [
-    "memory",
-    "work",
-    "notes",
-    "context",
+    "work-memory",
+    "session-tracking",
+    "changelog",
+    "feature-tracking",
     "cli",
-    "developer-tools"
+    "developer-tools",
+    "sqlite",
+    "project-management",
+    "claude-cli",
+    "decision-tracking",
+    "issue-tracking"
   ],
-  "author": "Rupesh Panwar",
+  "author": "Rupesh Panwar <rupesh.panwar@example.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupeedev/agent-work-memory.git"
+  },
+  "homepage": "https://github.com/rupeedev/agent-work-memory#readme",
+  "bugs": {
+    "url": "https://github.com/rupeedev/agent-work-memory/issues"
+  },
   "dependencies": {
     "better-sqlite3": "^11.8.1",
     "chalk": "^4.1.2",
     "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
