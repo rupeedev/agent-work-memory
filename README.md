@@ -17,14 +17,14 @@ SQLite-based CLI tool for tracking work sessions, changelog entries, features, d
 ## Installation
 
 ```bash
-npm install -g work-memory
+npm install -g agent-work-memory
 ```
 
 Or from source:
 
 ```bash
 git clone <repository>
-cd work-memory
+cd agent-work-memory
 npm install
 npm link
 ```
