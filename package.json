@@ -5,8 +5,8 @@
   "main": "db.js",
   "type": "commonjs",
   "bin": {
-    "workmem": "./cli.js",
-    "workmem-session": "./cli-session.js"
+    "workmem": "cli.js",
+    "workmem-session": "cli-session.js"
   },
   "scripts": {
     "start": "node cli.js",
