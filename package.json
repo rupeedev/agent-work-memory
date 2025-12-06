@@ -1,0 +1,30 @@
+{
+  "name": "work-memory",
+  "version": "1.0.0",
+  "description": "Simple CLI tool for tracking daily work context, conversations, and decisions",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "workmem": "./cli.js",
+    "workmem-session": "./cli-session.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "install-global": "npm link"
+  },
+  "keywords": [
+    "memory",
+    "work",
+    "notes",
+    "context",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "Rupesh Panwar",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0"
+  }
+}
